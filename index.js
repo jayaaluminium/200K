@@ -160,14 +160,14 @@ async function startHisoka() {
                 try {
                     ppuser = await hisoka.profilePictureUrl(num, 'image')
                 } catch {
-                    ppuser = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+                    ppuser = 'https://telegra.ph/file/d66dc4fb972ee21aaf863.jpg'
                 }
 
                 // Get Profile Picture Group
                 try {
                     ppgroup = await hisoka.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+                    ppgroup = 'https://telegra.ph/file/d66dc4fb972ee21aaf863.jpg'
                 }
 
                 if (anu.action == 'add') {
